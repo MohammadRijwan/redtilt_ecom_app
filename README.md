@@ -97,23 +97,52 @@ splash_screen.dart
 
 • splash.dart file, which initializes the app.
 
+## The core directory contains all the required files.
 
-## The features directory contains all the required features of the application.
+## common layer 
 
-## auth layer (auth folder includes)
+• common folder contains common files for all the layers.
 
-• Displays the UI for add expense, expense list and view summary of expenses.
-
-• Presentation folder also includes screens and view models. View Model is responsible to displaying the data in the screen and maintain the state.
-
-
-## domain layer contains interface and model
+## domain layer
 
 • Domain layer contains interface and model to structure the app in proper way.
 
-## data layer contains repository which fetches products from api or local database.
+## data layer
 
-Data layer contains auth, firebase, offline_data and product repository, it is responsible for fetching data from the server and local database.
+• Data layer contains auth, firebase, offline_data and product repository, it is responsible for fetching data from the server and local database.
+
+## provider layer
+
+• Provider layer contains all the required providers for the app.
+
+## util layer.
+
+• Util layer contains all the required utils for the app.
+
+
+
+## The features directory contains all the required features of the application.
+
+## auth layer
+
+• Auth folder contains login and signup feature.
+
+
+## cart layer
+
+• Cart folder contains cart feature with cart screen, cart notifier and cart state.
+
+## order_checkout layer
+
+• Order_checkout folder contains order checkout feature with order checkout screen.
+
+## product layer
+
+• Product folder contains product feature with product screen and product vm.
+
+## product_details layer
+
+• Product_details folder contains product_details feature with product_details screen.
 
 
 ## To run app -> flutter build  command
