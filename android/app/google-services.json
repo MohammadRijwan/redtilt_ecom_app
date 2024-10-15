@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "316270152747",
+    "project_id": "redtilt-ecom-app",
+    "storage_bucket": "redtilt-ecom-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316270152747:android:586dcff61da4d7491f2e6e",
+        "android_client_info": {
+          "package_name": "redtilt.ecom.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDonbuoqfqJab46rM3NtU6ZczFDkZkUbAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
