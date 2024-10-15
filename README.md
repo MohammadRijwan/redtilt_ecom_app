@@ -1,6 +1,16 @@
 # E-Commerce App
 
-A mobile application for users to track and manage personal expenses.
+## Introduction
+
+This code is written with the help of clean architecture with domain, 
+data and ui layer implementations to create the app and libraries used are 
+Riverpod, Shared Preferences, FirebaseAuth, FirebaseStorage.
+
+The key feature of app is to add/update/delete the product items in cart and
+search the product by name and product id. The app displays a list of Products 
+from the local database if internet connection is not available otherwise 
+it fetches the data from the server. and also added animations.
+
 
 
 ## Features
@@ -10,6 +20,7 @@ A mobile application for users to track and manage personal expenses.
 • Product Details : Display product details.
 • Cart : Add and remove product in cart.
 • Order Checkout :Display order summary and place order.
+
 ```
 
 ## Libraries used
