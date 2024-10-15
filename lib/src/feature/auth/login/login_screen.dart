@@ -4,7 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:form_builder_validators/form_builder_validators.dart';
 import 'package:go_router/go_router.dart';
 import 'package:redtilt_ecom_app/src/core/provider/app_providers.dart';
-import 'package:redtilt_ecom_app/src/feature/auth/registration/signup_screen.dart';
+import 'package:redtilt_ecom_app/src/feature/auth/signup/signup_screen.dart';
 
 class LoginScreen extends StatefulWidget {
   static String route = 'login';

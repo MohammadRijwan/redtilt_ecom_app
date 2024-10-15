@@ -1,13 +1,13 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:redtilt_ecom_app/src/core/data/auth_repo/auth_api_repo.dart';
+import 'package:redtilt_ecom_app/src/core/data/auth_repo/auth_repo.dart';
 import 'package:redtilt_ecom_app/src/core/data/firebase_db/firebase_db.dart';
 import 'package:redtilt_ecom_app/src/core/data/product_repo/product_repo.dart';
 import 'package:redtilt_ecom_app/src/core/domain/interface/i_auth_repo/i_auth_repo.dart';
 import 'package:redtilt_ecom_app/src/core/domain/interface/i_db/i_db.dart';
 import 'package:redtilt_ecom_app/src/core/domain/interface/i_product_repo/i_product_repo.dart';
 import 'package:redtilt_ecom_app/src/feature/auth/login/login_vm.dart';
-import 'package:redtilt_ecom_app/src/feature/auth/registration/signup_vm.dart';
+import 'package:redtilt_ecom_app/src/feature/auth/signup/signup_vm.dart';
 import 'package:redtilt_ecom_app/src/feature/cart/cart_notifier.dart';
 import 'package:redtilt_ecom_app/src/feature/cart/cart_state.dart';
 import 'package:redtilt_ecom_app/src/feature/product/presentation/products_vm.dart';

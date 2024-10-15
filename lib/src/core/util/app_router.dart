@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:redtilt_ecom_app/splash_screen.dart';
 import 'package:redtilt_ecom_app/src/feature/auth/login/login_screen.dart';
-import 'package:redtilt_ecom_app/src/feature/auth/registration/signup_screen.dart';
+import 'package:redtilt_ecom_app/src/feature/auth/signup/signup_screen.dart';
 import 'package:redtilt_ecom_app/src/feature/cart/cart_screen.dart';
 import 'package:redtilt_ecom_app/src/feature/order_checkout/presentation/order_checkout_screen.dart';
 import 'package:redtilt_ecom_app/src/feature/product/presentation/products_screen.dart';
