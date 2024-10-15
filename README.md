@@ -5,11 +5,11 @@ A mobile application for users to track and manage personal expenses.
 
 ## Features
 ```sh
-• Add Expense : Users can input the amount, date, and a brief description.
-• View Expenses: Display expenses in a list, sorted and filterable by date.
-• Edit/Delete Expense : Modify or remove expense entries.
-• Expense Summary : Show summaries categorized by type, on a weekly or monthly basis.
-• Reminder Notifications: Set up reminders for users to record their daily expenses.
+• Authentication : Users can login and signup with email and password.
+• Product List: Display Products in a list, add, remove product in cart and search by name and id.
+• Product Details : Display product details.
+• Cart : Add and remove product in cart.
+• Order Checkout :Display order summary and place order.
 ```
 
 ## Libraries used
