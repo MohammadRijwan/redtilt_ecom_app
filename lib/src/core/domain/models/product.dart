@@ -16,6 +16,7 @@ class Product {
   final double? price;
   final String? description;
   final String? image;
+  final String? category;
   final int qty;
 
   Product({
@@ -23,6 +24,7 @@ class Product {
     this.title,
     this.price,
     this.description,
+    this.category,
     this.image,
     this.qty = 0,
   });
@@ -32,6 +34,7 @@ class Product {
     String? title,
     double? price,
     String? description,
+    String? category,
     String? image,
     int? qty,
   }) {
@@ -41,6 +44,7 @@ class Product {
       price: price ?? this.price,
       description: description ?? this.description,
       image: image ?? this.image,
+      category: category ?? this.category,
       qty: qty ?? this.qty,
     );
   }
@@ -51,6 +55,7 @@ class Product {
         price: json["price"]?.toDouble(),
         description: json["description"],
         image: json["image"],
+        category: json["category"],
         qty: json["qty"] ?? 0,
       );
 
@@ -60,6 +65,7 @@ class Product {
         "price": price,
         "description": description,
         "image": image,
+        "category": category,
         "qty": qty,
       };
 }

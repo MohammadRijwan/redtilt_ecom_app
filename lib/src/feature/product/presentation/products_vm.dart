@@ -38,7 +38,8 @@ class ProductsVm extends ChangeNotifier {
   void search(String value) {
     filteredProducts = _products
         .where((element) =>
-            element.title!.toLowerCase().contains(value.toLowerCase()))
+            element.title!.toLowerCase().contains(value.toLowerCase()) ||
+            element.category!.toLowerCase().contains(value.toLowerCase()))
         .toList();
     notifyListeners();
   }
