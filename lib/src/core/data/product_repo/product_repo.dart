@@ -24,6 +24,7 @@ class ProductRepo implements IProductRepo {
       }
 
       final response = await _dio.get('/products');
+      log("Response: $response");
       if (response.statusCode == 200) {
         var products = (response.data as List)
             .map((productJson) => Product.fromJson(productJson))

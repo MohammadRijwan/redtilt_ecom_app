@@ -60,6 +60,14 @@ class ProductCard extends StatelessWidget {
                   overflow: TextOverflow.ellipsis,
                 ),
                 const SizedBox(height: 8),
+                Text(
+                  'Category: ${product.category ?? 'NA'}'.toUpperCase(),
+                  maxLines: 1,
+                  style: const TextStyle(
+                      fontSize: 10, fontWeight: FontWeight.bold),
+                  overflow: TextOverflow.ellipsis,
+                ),
+                const SizedBox(height: 8),
                 AddRemoveProductButton(
                     quantity: cartNotifier.getQuantity(product.id),
                     addProduct: () {
