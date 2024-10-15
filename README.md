@@ -7,16 +7,17 @@ data and ui layer implementations to create the app and libraries used are
 Riverpod, Shared Preferences, FirebaseAuth, FirebaseStorage.
 
 The key feature of app is to add/update/delete the product items in cart and
-search the product by name and product id. The app displays a list of Products 
+search the product by name and category. The app displays a list of Products 
 from the local database if internet connection is not available otherwise 
-it fetches the data from the server. and also added animations.
+it fetches the data from the server. The app also added animations and loading spinner when data is fetching, 
+toast messages for adding items to the cart.
 
 
 
 ## Features
 ```sh
 • Authentication : Users can login and signup with email and password.
-• Product List: Display Products in a list, add, remove product in cart and search by name and id.
+• Product List: Display Products in a list, add, remove product in cart and search by name and category.
 • Product Details : Display product details.
 • Cart : Add and remove product in cart.
 • Order Checkout :Display order summary and place order.
@@ -34,7 +35,7 @@ it fetches the data from the server. and also added animations.
 ## Project Structure and Architecture
 
 This code uses clean architecture with domain, data and ui layer implementations to create the app. The key feature of app is to add/update/delete the product items in cart and
-search the product by name and its id. The app displays a list of Products from the local database if internet connection is not available otherwise it fetches the data from the server.
+search the product by name and category. The app displays a list of Products from the local database if internet connection is not available otherwise it fetches the data from the server.
 
 ## Directory Structure
 ```sh
